@@ -4,4 +4,9 @@
     <style name="Theme.Test_compose" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:statusBarColor">@color/purple_700</item>
     </style>
+
+    <style name="LoginTheme" parent="Theme.Test_compose">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
 </resources>
